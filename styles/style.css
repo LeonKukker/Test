@@ -61,8 +61,8 @@ body {
 }
 
 .section__box {
-  height: 30%;
-  width: 20%;
+  height: 40%;
+  width: 15%;
   min-height: 200px;
   min-width: 150px;
 }
@@ -77,7 +77,8 @@ body {
 }
 
 .section__day {
-  margin-left: 15%;
+  padding: 10%;
+  padding-bottom: 0%;
 }
 
 li {
@@ -86,8 +87,8 @@ li {
 }
 
 img {
-  width: 60%;
-  height: 60%;
+  width: 55%;
+  height: 50%;
 }
 
 .section__font--second {
@@ -95,7 +96,7 @@ img {
 }
 
 .section__font--main {
-  font-size: 55px;
+  font-size: 75px;
 }
 
 h5 {
@@ -104,7 +105,7 @@ h5 {
 }
 
 .section__location {
-  margin-top: 5%;
+  margin-top: 50%;
 }
 
 @media only screen and (min-width: 0px) and (max-width: 460px) {
@@ -117,11 +118,20 @@ h5 {
   }
 
   .section__box {
-    margin-top: 5%;
+    margin-top: 2%;
+    margin-bottom: 5%;
     height: 25%;
-    width: 80%;
-    min-height: 15%;
-    min-width: 10%;
+    width: 50%;
+    min-height: 150px;
+    min-width: 150px;
+  }
+
+  .section__location {
+    margin: 0;
+  }
+
+  .section__font--main {
+    font-size: 60px;
   }
 }
 
